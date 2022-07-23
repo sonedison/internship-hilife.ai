@@ -1,0 +1,49 @@
+
+body {font-family: "Lato", sans-serif;}
+
+.sidebar {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(29, 26, 78);
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: yellow;
+}
+
+.main {
+  margin-left: 210px; /* Same as the width of the sidenav */
+  padding: 0px 40px 0px 40px;
+  background-color:skyblue;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.user-logo {
+  height: 150px;
+  width: 150px;
+  padding: 25px;
+}
+.user-logo img {
+  height: 100%;
+  width: 100%;
+  border: 8px double #1f1f1f;
+  border-radius: 50%;
+  border-color: black;
+}
