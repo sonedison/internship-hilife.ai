@@ -1,0 +1,20 @@
+.soft1{
+    background-color: black;
+    display: block;
+}
+.main{
+    background-color: yellowgreen;
+    text-align: center;
+    color: rgb(221, 250, 178);
+    height: 240px;
+    padding: 40px;
+}
+.main{
+    text-align: center;
+}
+.edison
+{
+    margin: 0% 5% 0% 5%;
+    box-shadow: 5px 5px 5px 5px rgb(145, 140, 140);
+    height: 1000px;
+}

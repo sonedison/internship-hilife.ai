@@ -1,0 +1,73 @@
+.animat{
+    background-color: bisque;
+    width: 200px;
+    height: 400px;
+    color: aqua;
+    animation-name: demo;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+@keyframes demo{
+    0%{
+        background-color: blue;
+    }
+    10%{
+        background-color: aliceblue;
+    }
+    20%{
+        background-color: rgb(27, 247, 228);
+    }
+    30%{
+        background-color: blue;
+    }
+    40%{
+        background-color: brown;
+    }
+    50%{
+        background-color: chartreuse;
+    }
+    60%{
+        background-color: chocolate;
+    }
+    70%{
+        background-color: coral;
+    }
+    80%{
+        background-color: cyan;
+    }
+    90%{
+        background-color: cadetblue;
+    }
+    100%{
+        background-color: darkmagenta;
+    }
+}
+.div{
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(185, 250, 8);
+    transition: width 2s;
+}
+.div:hover{
+    width: 300px;
+    background-color: aqua;
+}
+.great{
+    transform: rotate(30deg);
+    width: max-content;
+    background-color: blanchedalmond;
+}
+.respons{
+    column-count: 4;
+    column-rule: 2px solid red;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+@media screen and (min-width:300px)and(max-width:800px) {
+    column-count: 2;
+    font-size: 10px;
+    
+}

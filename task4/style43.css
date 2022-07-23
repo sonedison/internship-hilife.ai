@@ -1,0 +1,19 @@
+.box{
+    display: inline-flex;
+    color:black;
+    border-width: 8px solid blue;
+}
+.box-item{
+    display:inline-flex;
+    padding: 50px;
+    border: 2px soild black;
+    background-color: brown;
+    color: chartreuse;
+    border-radius: 8px;
+    border-width: 8px;
+    box-sizing: border-box;
+    border-spacing:5px;
+    border-style:outset;
+    font-size:60px;
+    
+}
